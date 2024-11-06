@@ -52,7 +52,7 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = ""
+            groupId = "com.dongze.anagramlibrary"
             artifactId = "AnagramCheck"
             version = "1.0.0"
 
